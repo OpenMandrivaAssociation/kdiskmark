@@ -10,7 +10,7 @@ Source0: https://github.com/JonMagon/KDiskMark/archive/%{version}/%{oname}-%{ver
 Patch0: https://github.com/JonMagon/KDiskMark/pull/32.patch#/fix-appdata-manifest-typo.patch
 
 
-BuildRequires: libappstream-glib8
+#BuildRequires: libappstream-glib8
 BuildRequires: pkgconfig(appstream-glib)
 BuildRequires: cmake(Qt5Core)
 BuildRequires: cmake(Qt5LinguistTools)
