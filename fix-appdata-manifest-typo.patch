@@ -1,0 +1,22 @@
+From 909d72904a0377375170064d02723906de2fdf86 Mon Sep 17 00:00:00 2001
+From: Artem Polishchuk <ego.cordatus@gmail.com>
+Date: Sat, 24 Oct 2020 08:53:03 +0300
+Subject: [PATCH] fix: appdata manifest typo
+
+---
+ data/kdiskmark.desktop | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/data/kdiskmark.desktop b/data/kdiskmark.desktop
+index 09a9a58..e631cf9 100644
+--- a/data/kdiskmark.desktop
++++ b/data/kdiskmark.desktop
+@@ -11,7 +11,7 @@ Keywords=benchmark;disk;
+ Keywords[ru]=производительность;диск;
+ Keywords[it]=benchmark;disco;prestazioni;
+ Keywords[pt_BR]=benchmark;disco;
+-Keywords[pt_BR]=基准测试;磁盘;
++Keywords[zh_CN]=基准测试;磁盘;
+ Exec=kdiskmark
+ Icon=kdiskmark
+ Terminal=false
