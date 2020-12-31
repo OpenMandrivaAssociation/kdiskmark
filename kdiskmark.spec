@@ -1,16 +1,13 @@
 %define oname KDiskMark
 Name: kdiskmark
-Version: 2.0.0
+Version: 2.1.0
 Release: 1
 Summary: Simple open-source disk benchmark tool for Linux distros
 
 License: GPLv3+
 URL: https://github.com/JonMagon/KDiskMark
 Source0: https://github.com/JonMagon/KDiskMark/archive/%{version}/%{oname}-%{version}.tar.gz
-Patch0: https://github.com/JonMagon/KDiskMark/pull/32.patch#/fix-appdata-manifest-typo.patch
 
-
-#BuildRequires: libappstream-glib8
 BuildRequires: pkgconfig(appstream-glib)
 BuildRequires: cmake(Qt5Core)
 BuildRequires: cmake(Qt5LinguistTools)
@@ -27,19 +24,15 @@ interface. KDiskMark with its presets and powerful GUI calls Flexible I/O
 Tester and handles the output to provide an easy to view and interpret
 comprehensive benchmark result.
 
-
 %prep
 %autosetup -n KDiskMark-%{version} -p1
-
 
 %build
 %cmake
 %make_build
 
-
 %install
 %make_install -C build
-
 
 %files
 %license LICENSE
