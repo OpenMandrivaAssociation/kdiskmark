@@ -12,6 +12,7 @@ BuildRequires: pkgconfig(appstream-glib)
 BuildRequires: cmake(Qt5Core)
 BuildRequires: cmake(Qt5LinguistTools)
 BuildRequires: cmake(Qt5Widgets)
+BuildRequires: cmake(KF5Auth)
 BuildRequires: cmake(ECM)
 BuildRequires: desktop-file-utils
 
