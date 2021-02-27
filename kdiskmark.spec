@@ -39,6 +39,10 @@ comprehensive benchmark result.
 %license LICENSE
 %doc README.md
 %{_bindir}/%{name}
+%{_libdir}/libexec/kauth/kdiskmark_helper
 %{_datadir}/applications/*.desktop
 %{_datadir}/icons/hicolor/*/*/*.png
+%{_datadir}/dbus-1/system-services/org.jonmagon.kdiskmark.service
+%{_datadir}/dbus-1/system.d/org.jonmagon.kdiskmark.conf
+%{_datadir}/polkit-1/actions/org.jonmagon.kdiskmark.policy
 %{_datadir}/%{name}/
