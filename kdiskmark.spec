@@ -43,7 +43,9 @@ comprehensive benchmark result.
 %{_libdir}/libexec/kauth/kdiskmark_helper
 %{_datadir}/applications/*.desktop
 %{_datadir}/icons/hicolor/*/*/*.png
-#{_datadir}/dbus-1/system-services/org.jonmagon.kdiskmark.service
-#{_datadir}/dbus-1/system.d/org.jonmagon.kdiskmark.conf
-#{_datadir}/polkit-1/actions/org.jonmagon.kdiskmark.policy
+%{_datadir}/dbus-1/system-services/dev.jonmagon.kdiskmark.helper.service
+%{_datadir}/dbus-1/system.d/dev.jonmagon.kdiskmark.applicationinterface.conf
+%{_datadir}/dbus-1/system.d/dev.jonmagon.kdiskmark.helper.conf
+%{_datadir}/dbus-1/system.d/dev.jonmagon.kdiskmark.helperinterface.conf
+%{_datadir}/polkit-1/actions/dev.jonmagon.kdiskmark.helper.policy
 %{_datadir}/%{name}/
