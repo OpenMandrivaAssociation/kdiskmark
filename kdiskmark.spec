@@ -10,6 +10,7 @@ Source0: https://github.com/JonMagon/KDiskMark/archive/%{version}/%{oname}-%{ver
 
 BuildRequires: pkgconfig(appstream-glib)
 BuildRequires: cmake(Qt5Core)
+BuildRequires: cmake(Qt5DBus)
 BuildRequires: cmake(Qt5LinguistTools)
 BuildRequires: cmake(Qt5Widgets)
 BuildRequires: cmake(KF5Auth)
