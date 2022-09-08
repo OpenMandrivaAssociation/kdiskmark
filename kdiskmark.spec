@@ -15,6 +15,7 @@ BuildRequires: cmake(Qt5LinguistTools)
 BuildRequires: cmake(Qt5Widgets)
 BuildRequires: cmake(KF5Auth)
 BuildRequires: cmake(ECM)
+BuildRequires: cmake(PolkitQt5-1)
 BuildRequires: desktop-file-utils
 
 Requires: fio
