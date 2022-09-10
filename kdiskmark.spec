@@ -1,12 +1,12 @@
 %define oname KDiskMark
 Name: kdiskmark
-Version: 3.1.0
+Version: 3.1.1
 Release: 1
 Summary: Simple open-source disk benchmark tool for Linux distros
 
 License: GPLv3+
 URL: https://github.com/JonMagon/KDiskMark
-Source0: https://github.com/JonMagon/KDiskMark/archive/%{version}/%{oname}-%{version}.tar.gz
+Source0: https://github.com/JonMagon/KDiskMark/releases/download/%{version}/KDiskMark-%{version}-source.tar.gz
 
 BuildRequires: pkgconfig(appstream-glib)
 BuildRequires: cmake(Qt5Core)
@@ -41,12 +41,10 @@ comprehensive benchmark result.
 %license LICENSE
 %doc README.md
 %{_bindir}/%{name}
-%{_libdir}/libexec/kauth/kdiskmark_helper
+%{_libexecdir}/kdiskmark_helper
 %{_datadir}/applications/*.desktop
 %{_datadir}/icons/hicolor/*/*/*.png
-%{_datadir}/dbus-1/system-services/dev.jonmagon.kdiskmark.helper.service
-%{_datadir}/dbus-1/system.d/dev.jonmagon.kdiskmark.applicationinterface.conf
-%{_datadir}/dbus-1/system.d/dev.jonmagon.kdiskmark.helper.conf
+%{_datadir}/dbus-1/system-services/dev.jonmagon.kdiskmark.helperinterface.service
 %{_datadir}/dbus-1/system.d/dev.jonmagon.kdiskmark.helperinterface.conf
 %{_datadir}/polkit-1/actions/dev.jonmagon.kdiskmark.helper.policy
 %{_datadir}/%{name}/
