@@ -1,6 +1,6 @@
 %define oname KDiskMark
 Name: kdiskmark
-Version: 3.1.1
+Version: 3.1.2
 Release: 1
 Summary: Simple open-source disk benchmark tool for Linux distros
 
