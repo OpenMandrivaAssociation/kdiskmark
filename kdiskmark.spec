@@ -11,12 +11,15 @@ Source0: https://github.com/JonMagon/KDiskMark/releases/download/%{version}/KDis
 BuildRequires: pkgconfig(appstream-glib)
 BuildRequires: cmake(Qt6Core)
 BuildRequires: cmake(Qt6DBus)
+BuildRequires: cmake(Qt6Network)
 BuildRequires: cmake(Qt6LinguistTools)
 BuildRequires: cmake(Qt6Widgets)
 BuildRequires: cmake(KF6Auth)
 BuildRequires: cmake(ECM)
 BuildRequires: cmake(PolkitQt6-1)
 BuildRequires: desktop-file-utils
+BuildRequires: qt6-qtbase-theme-gtk3
+BuildRequires: cmake(VulkanHeaders)
 
 Requires: fio
 Requires: hicolor-icon-theme
