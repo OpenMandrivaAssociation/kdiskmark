@@ -28,7 +28,7 @@ Tester and handles the output to provide an easy to view and interpret
 comprehensive benchmark result.
 
 %prep
-%autosetup -n KDiskMark-%{version} -p1
+%autosetup -n kdiskmark-%{version} -p1
 
 %build
 %cmake
