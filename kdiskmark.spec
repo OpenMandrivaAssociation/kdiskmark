@@ -8,6 +8,8 @@ License: GPLv3+
 URL: https://github.com/JonMagon/KDiskMark
 Source0: https://github.com/JonMagon/KDiskMark/releases/download/%{version}/KDiskMark-%{version}-source.tar.gz
 
+BuildRequires: cmake
+BuildRequires: make
 BuildRequires: pkgconfig(appstream-glib)
 BuildRequires: cmake(Qt6Core)
 BuildRequires: cmake(Qt6DBus)
